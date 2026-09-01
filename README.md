@@ -1,6 +1,9 @@
 # Terraform AWS Microservices Deployment Assignment
 
+**GitHub Repository**: [https://github.com/syedibad52/Terraform_Assignment](https://github.com/syedibad52/Terraform_Assignment)
+
 This project contains complete, human-readable Terraform Infrastructure as Code (IaC) configurations and application source files to deploy a **Flask Backend API** (Python, Port 5000) and an **Express Frontend UI** (Node.js, Port 3000) across three progressive AWS deployment architectures.
+
 
 ---
 
