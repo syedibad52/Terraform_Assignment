@@ -1,0 +1,12 @@
+# Example S3 Backend Configuration for Terraform Remote State Management
+# To enable remote state management, copy this file to backend.tf in any part directory and update bucket details.
+
+terraform {
+  backend "s3" {
+    bucket         = "my-terraform-state-bucket-unique-name"
+    key            = "terraform/state.tfstate"
+    region         = "us-east-1"
+    encrypt        = true
+    dynamodb_table = "terraform-lock-table"
+  }
+}
